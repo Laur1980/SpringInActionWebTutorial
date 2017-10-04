@@ -6,14 +6,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Home</title>
-<link rel="stylesheet" type="text/css"
-	href="<c:url value="/resources/style.css" />">
+<!--  <link rel="stylesheet" type="text/css"
+	href="<c:url value="/resources/style.css" />">-->
 </head>
 <body>
 	<h1>
 		<c:out value="Welcome home!" />
 	</h1>
-	<a href="<c:url value="/spittles" />">Spittles</a> |
+	<a href="<c:url value="/spittles" />">Spittles</a> | 
 	<a href="<c:url value="/spitter/register" />">Register</a>
 </body>
 </html>

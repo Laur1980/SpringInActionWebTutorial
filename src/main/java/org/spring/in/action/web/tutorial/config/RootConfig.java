@@ -8,6 +8,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 @ComponentScan(basePackages={"org.spring.in.action.web.tutorial.config",
-							"org.spring.in.action.web.tutorial.controller","org.spring.in.action.web.tutorial.testcontroller"},
+							"org.spring.in.action.web.tutorial.controller",
+							"org.spring.in.action.web.tutorial.testcontroller",
+							"org.spring.in.action.web.tutorial.dao",
+							"org.spring.in.action.web.tutorial.entity"},
 				excludeFilters={@Filter(type=FilterType.ANNOTATION, value=EnableWebMvc.class)})
 public class RootConfig {}

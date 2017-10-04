@@ -11,7 +11,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("org.spring.in.action.web.tutorial.config")
+@ComponentScan(basePackages={"org.spring.in.action.web.tutorial.config",
+							"org.spring.in.action.web.tutorial.controller",
+							"org.spring.in.action.web.tutorial.testcontroller",
+							"org.spring.in.action.web.tutorial.dao",
+							"org.spring.in.action.web.tutorial.entity"})
 public class WebConfig extends WebMvcConfigurerAdapter{
 	
 	@Bean
