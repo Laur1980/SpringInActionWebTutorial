@@ -11,12 +11,9 @@ import org.spring.in.action.web.tutorial.controller.SpittleController;
 import org.spring.in.action.web.tutorial.dao.SpittleRepository;
 import org.spring.in.action.web.tutorial.entity.Spittle;
 
-import static
-org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-import static
-org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static
-org.springframework.test.web.servlet.setup.MockMvcBuilders.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.setup.MockMvcBuilders.*;
 
 import java.util.ArrayList;
 import java.util.Date;
